@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BXAQUIKS
 
 [Document4]
-DocumentPath=hdmi.SchDoc
+DocumentPath=vga&audio.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1067,8 +1067,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Sch_Lib.SchLib
-ComponentDesignItemID0=FE1.1S-BQFN24B
-ComponentSymbolReference0=FE1.1S-BQFN24B
+ComponentDesignItemID0=TAJA106K016RNJ
+ComponentSymbolReference0=TAJA106K016RNJ
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1084,18 +1084,30 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Check_prices
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=Description
 ParameterUpdate3=1
+ParameterName4=Library Reference
+ParameterUpdate4=1
+ParameterName5=MF
+ParameterUpdate5=1
+ParameterName6=MP
+ParameterUpdate6=1
+ParameterName7=Package
+ParameterUpdate7=1
+ParameterName8=SnapEDA_Link
+ParameterUpdate8=1
+ParameterName9=Value
+ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=QFN50P400X400X80-25N
+ModelName0=CAPMP3216X180N
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
@@ -1105,30 +1117,61 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=+3V3|NetColor=$000099FF
-Net2=NetName=+VDS|NetColor=clAqua
-Net3=NetName=+VDS1|NetColor=$00FF0099
-Net4=NetName=+VUS|NetColor=$008B9E31
-Net5=NetName=DRV|NetColor=$00E8864A
-Net6=NetName=DS1_N|NetColor=clFuchsia
-Net7=NetName=DS1_P|NetColor=clFuchsia
-Net8=NetName=DS2_N|NetColor=clFuchsia
-Net9=NetName=DS2_P|NetColor=clFuchsia
-Net10=NetName=DS3_N|NetColor=clFuchsia
-Net11=NetName=DS3_P|NetColor=clFuchsia
-Net12=NetName=DS4_N|NetColor=clFuchsia
-Net13=NetName=DS4_P|NetColor=clFuchsia
-Net14=NetName=GND|NetColor=$00134E27
-Net15=NetName=LED1|NetColor=$00E8864A
-Net16=NetName=LED2|NetColor=$00E8864A
-Net17=NetName=NetJ?_2|NetColor=$00FF0099
-Net18=NetName=NetJ?_3|NetColor=$00FF0099
-Net19=NetName=US_N|NetColor=$00FF0099
-Net20=NetName=US_P|NetColor=$00FF0099
-Net21=NetName=VBUS|NetColor=$001068A8
-Net22=NetName=VUSB|NetColor=$001068A8
-Net23=NetName=XIN|NetColor=$0032C2F1
-Net24=NetName=XOUT|NetColor=$0032C2F1
+Net1=NetName=_H_SYNC|NetColor=$00F351DB
+Net2=NetName=_V_SYNC|NetColor=$00F351DB
+Net3=NetName=+3V3|NetColor=$000099FF
+Net4=NetName=+VDS|NetColor=clAqua
+Net5=NetName=+VDS1|NetColor=$00FF0099
+Net6=NetName=+VUS|NetColor=$008B9E31
+Net7=NetName=AGND|NetColor=$001D7638
+Net8=NetName=BCK|NetColor=clYellow
+Net9=NetName=DIN|NetColor=clYellow
+Net10=NetName=DRV|NetColor=$00E8864A
+Net11=NetName=DS1_N|NetColor=clFuchsia
+Net12=NetName=DS1_P|NetColor=clFuchsia
+Net13=NetName=DS2_N|NetColor=clFuchsia
+Net14=NetName=DS2_P|NetColor=clFuchsia
+Net15=NetName=DS3_N|NetColor=clFuchsia
+Net16=NetName=DS3_P|NetColor=clFuchsia
+Net17=NetName=DS4_N|NetColor=clFuchsia
+Net18=NetName=DS4_P|NetColor=clFuchsia
+Net19=NetName=GND|NetColor=$00134E27
+Net20=NetName=H_SYNC|NetColor=$00AC0587
+Net21=NetName=IO_B0|NetColor=$00CC5511
+Net22=NetName=IO_B1|NetColor=$00CC5511
+Net23=NetName=IO_B2|NetColor=$00CC5511
+Net24=NetName=IO_B3|NetColor=$00CC5511
+Net25=NetName=IO_G0|NetColor=$005DCF7F
+Net26=NetName=IO_G1|NetColor=$005DCF7F
+Net27=NetName=IO_G2|NetColor=$005DCF7F
+Net28=NetName=IO_G3|NetColor=$005DCF7F
+Net29=NetName=IO_R0|NetColor=$001E1ECA
+Net30=NetName=IO_R1|NetColor=$001E1ECA
+Net31=NetName=IO_R2|NetColor=$001E1ECA
+Net32=NetName=IO_R3|NetColor=$001E1ECA
+Net33=NetName=LED1|NetColor=$00E8864A
+Net34=NetName=LED2|NetColor=$00E8864A
+Net35=NetName=LRCK|NetColor=clYellow
+Net36=NetName=NetJ?_2|NetColor=$00FF0099
+Net37=NetName=NetJ?_3|NetColor=$00FF0099
+Net38=NetName=OUT_N|NetColor=$00751C35
+Net39=NetName=OUT_P|NetColor=$00751C35
+Net40=NetName=OUTL|NetColor=$00751C35
+Net41=NetName=OUTL_N|NetColor=$00751C35
+Net42=NetName=OUTR|NetColor=$00751C35
+Net43=NetName=OUTR_P|NetColor=$00751C35
+Net44=NetName=SCK|NetColor=clYellow
+Net45=NetName=US_N|NetColor=$00FF0099
+Net46=NetName=US_P|NetColor=$00FF0099
+Net47=NetName=V_SYNC|NetColor=$00AC0587
+Net48=NetName=VBUS|NetColor=$001068A8
+Net49=NetName=VGA_BLUE|NetColor=clBlue
+Net50=NetName=VGA_GREEN|NetColor=clLime
+Net51=NetName=VGA_RED|NetColor=clRed
+Net52=NetName=VUSB|NetColor=$001068A8
+Net53=NetName=XIN|NetColor=$0032C2F1
+Net54=NetName=XOUT|NetColor=$0032C2F1
+Net55=NetName=XSMT|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
